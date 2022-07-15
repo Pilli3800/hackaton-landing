@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.creations {
+    margin: 0 250px;
+}
+.creations-title {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.creations-title h2 {
+    font-size: 50px;
+}
+.creations-title button{
+    background-color: white;
+    width: 120px;
+    height: 30px;
+}
+.card-container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 15px;
+    position: relative;
+}
+.card img {
+    width: 300px;
+}
+.card p {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    color: white;
+    font-size: 35px;
+    margin-right: 50px;
+}
