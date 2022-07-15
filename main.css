@@ -91,9 +91,24 @@ body {
   padding: 40px;
 }
 
-.creations {
-  margin: 0 250px;
+.leader, .creations {
+  margin: 150px 250px;
+  position: relative;
 }
+.leader img {
+    height: 650px;
+}
+.leader div {
+    position: absolute;
+    width: 500px;
+    right: 150px;
+    bottom: 4px;
+    background-color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+.leader div h1 {
+    font-size: 50px;
 .creations-title {
   display: flex;
   justify-content: space-between;
