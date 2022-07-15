@@ -5,13 +5,11 @@
 
 body {
   font-family: sans-serif;
-  padding-top: 80vh;
 }
 
 .header {
   background-image: url("./images/desktop/image-hero.jpg");
   height: 70vh;
-  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
